@@ -14,6 +14,7 @@ function setup_linux()
     clear
     mv virusforge /usr/bin/
     chmod +x /usr/bin/virusforge
+    pip install shellencrypt
 }
 
 setup_linux
